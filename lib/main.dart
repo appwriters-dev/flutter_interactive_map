@@ -58,10 +58,11 @@ class _NepalMapScreenState extends State<NepalMapScreen> {
               maxScale: 5,
               boundaryMargin: const EdgeInsets.all(16.0),
               minScale: 1.0,
+              
               constrained: false,
               child: SizedBox(
-                width: size.width < 1200 ? 1200 : size.width,
-                height: size.height < 800 ? 800 : size.height,
+                width: size.width < 1200 ? 1200 : size.width - 200,
+                height: size.height < 800 ? 800 : size.height - 200,
                 child: Stack(
                   children: [
                     for (var district in districts) ...[

@@ -1,3 +1,5 @@
-# flutter_interactive_map
+# Flutter interactive map with SVG
 
-A new Flutter project.
+- [Learn how to create an interactive map with SVG in Flutter](https://www.appwriters.dev/blog/flutter-interactive-svg-maps).
+
+![screenshot](screenshot/flutter_interactive_svg_map.png)
